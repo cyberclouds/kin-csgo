@@ -1,0 +1,9 @@
+#pragma once
+#include "sdk/offsets.h"
+#include "sdk/entity.h"
+#include "sdk/matrix3x4.h"
+#include "sdk/cutlvector.h"
+#include "sdk/glow_object_definition.h"
+#include "sdk/glow_manager.h"
+#include "sdk/entitylist.h"
+#include "sdk/classid.h"

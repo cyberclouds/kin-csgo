@@ -1,0 +1,10 @@
+#pragma once
+#include "hacks/bunnyhop.h"
+#include "hacks/chams.h"
+#include "hacks/glow.h"
+#include "hacks/radar.h"
+#include "hacks/nightmode.h"
+#include "hacks/triggerbot.h"
+#include "hacks/hitmarker.h"
+#include "hacks/backtrack.h"
+#include "hacks/aimbot.h"

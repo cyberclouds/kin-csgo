@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\sdk">
+      <UniqueIdentifier>{ef537bab-58d3-4472-821f-08a0bc7cf032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\hacks">
+      <UniqueIdentifier>{915835ae-4170-42c4-ac20-09ff74a07b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\hacks">
+      <UniqueIdentifier>{e903b8ce-2e7a-451b-a847-317ebc8c0f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\sdk">
+      <UniqueIdentifier>{9a81f5d8-58d1-4f83-8c2f-01e383c52414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\kin">
+      <UniqueIdentifier>{7c73dc51-de64-4814-aa1e-7de2d153f34d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="kin-csgo.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\triggerbot.cpp">
+      <Filter>Pliki źródłowe\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks/radar.cpp">
+      <Filter>Pliki źródłowe\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\nightmode.cpp">
+      <Filter>Pliki źródłowe\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks/bunnyhop.cpp">
+      <Filter>Pliki źródłowe\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks/chams.cpp">
+      <Filter>Pliki źródłowe\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks/glow.cpp">
+      <Filter>Pliki źródłowe\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\hitmarker.cpp">
+      <Filter>Pliki źródłowe\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\matrix3x4.cpp">
+      <Filter>Pliki źródłowe\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="kin\mem.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kin.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\backtrack.h">
+      <Filter>Pliki nagłówkowe\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks/bunnyhop.h">
+      <Filter>Pliki nagłówkowe\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks/chams.h">
+      <Filter>Pliki nagłówkowe\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks/glow.h">
+      <Filter>Pliki nagłówkowe\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\triggerbot.h">
+      <Filter>Pliki nagłówkowe\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classid.h">
+      <Filter>Pliki nagłówkowe\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk/cutlvector.h">
+      <Filter>Pliki nagłówkowe\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk/entity.h">
+      <Filter>Pliki nagłówkowe\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk/entitylist.h">
+      <Filter>Pliki nagłówkowe\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk/glow_manager.h">
+      <Filter>Pliki nagłówkowe\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk/glow_object_definition.h">
+      <Filter>Pliki nagłówkowe\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\nightmode.h">
+      <Filter>Pliki nagłówkowe\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk/offsets.h">
+      <Filter>Pliki nagłówkowe\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk/vec3.h">
+      <Filter>Pliki nagłówkowe\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\radar.h">
+      <Filter>Pliki nagłówkowe\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\hitmarker.h">
+      <Filter>Pliki nagłówkowe\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\matrix3x4.h">
+      <Filter>Pliki nagłówkowe\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\aimbot.h">
+      <Filter>Pliki nagłówkowe\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="kin\globals.h">
+      <Filter>Pliki nagłówkowe\kin</Filter>
+    </ClInclude>
+    <ClInclude Include="kin\log.h">
+      <Filter>Pliki nagłówkowe\kin</Filter>
+    </ClInclude>
+    <ClInclude Include="kin\mem.h">
+      <Filter>Pliki nagłówkowe\kin</Filter>
+    </ClInclude>
+    <ClInclude Include="kin\threads.h">
+      <Filter>Pliki nagłówkowe\kin</Filter>
+    </ClInclude>
+    <ClInclude Include="kin\config\settings.h">
+      <Filter>Pliki nagłówkowe\kin</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="kin-csgo.rc">
+      <Filter>Pliki zasobów</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\favicon.ico">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
